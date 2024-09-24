@@ -52,3 +52,7 @@ console.log(square(6))
 // BONUS TASK: 
 // Write a new function that within calls any 2 of the above functions and returns the sum or concatenation of their output. 
 // Test your function
+let functionSum = (num1, num2) => {
+   return num1 + num2
+}
+console.log(functionSum(divide(4, 5), square(6)))
